@@ -1,0 +1,55 @@
+const tabData = [
+  {
+    id: 0,
+    quesNo: "Q1",
+    quesYear: "2021",
+    ans: [
+      "Website Launch 1",
+      "Initial DEX offering ",
+      "Security Audits ",
+      "Pancake Swap Listing ",
+      "Launch on BSC ",
+      "Launch on Polygon ",
+      "Launch of Farming, Staking and Vaults (Level 1) ",
+      "Launch of InfiniteLaunch (Launch Pad) ",
+      " 1st IDO on InfiniteLaunch ",
+      "Aggressive Marketing Campaign",
+    ],
+  },
+  {
+    id: 1,
+    quesNo: "Q2",
+    quesYear: "2021",
+    ans: [
+      "Website Launch 2",
+      "Initial DEX offering ",
+      "Security Audits ",
+      "Pancake Swap Listing ",
+      "Launch on BSC ",
+      "Launch on Polygon ",
+      "Launch of Farming, Staking and Vaults (Level 1) ",
+      "Launch of InfiniteLaunch (Launch Pad) ",
+      " 1st IDO on InfiniteLaunch ",
+      "Aggressive Marketing Campaign",
+    ],
+  },
+  {
+    id: 2,
+    quesNo: "Q3",
+    quesYear: "2021",
+    ans: [
+      "Website Launch 3",
+      "Initial DEX offering ",
+      "Security Audits ",
+      "Pancake Swap Listing ",
+      "Launch on BSC ",
+      "Launch on Polygon ",
+      "Launch of Farming, Staking and Vaults (Level 1) ",
+      "Launch of InfiniteLaunch (Launch Pad) ",
+      " 1st IDO on InfiniteLaunch ",
+      "Aggressive Marketing Campaign",
+    ],
+  },
+];
+
+export default tabData;
