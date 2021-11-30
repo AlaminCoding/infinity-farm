@@ -5,6 +5,9 @@ export const GlobalStyle = createGlobalStyle`
         --black : #303030;
         --gray: #6a6a6a;
     }
+    html{
+        overflow-x: hidden;
+    }
     body{
         margin: 0;
         font-family: 'Open Sans', sans-serif;

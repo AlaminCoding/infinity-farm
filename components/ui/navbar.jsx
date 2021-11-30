@@ -6,9 +6,6 @@ import paper from "public/img/paper.png";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import gsap from "gsap/dist/gsap";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -16,11 +13,6 @@ const Navbar = () => {
     openNav
       ? (document.body.style.overflowY = "hidden")
       : (document.body.style.overflowY = "visible");
-    gsap.from(".header", {
-      duration: 1,
-      opacity: 0,
-      y: -80,
-    });
   });
   return (
     <Header className="header">

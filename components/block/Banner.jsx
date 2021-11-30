@@ -70,6 +70,7 @@ export default Banner;
 const Section = styled.section`
   position: relative;
   padding: 100px 0px;
+  overflow: hidden;
   @media screen and (max-width: 992px) {
     overflow-x: hidden;
     padding: 50px 0px 0px 0px;
