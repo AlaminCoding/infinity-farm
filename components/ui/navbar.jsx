@@ -12,9 +12,13 @@ const Navbar = () => {
   useEffect(() => {
     openNav
       ? ((document.body.style.overflow = "hidden"),
-        (document.body.style.position = "fixed"))
+        (document.body.style.position = "fixed"),
+        (document.body.style.width = "100%"),
+        (document.body.style.height = "100%"))
       : ((document.body.style.overflow = "visible"),
-        (document.body.style.position = "static"));
+        (document.body.style.position = "static"),
+        (document.body.style.width = "auto"),
+        (document.body.style.height = "auto"));
   });
   return (
     <Header className="header">
@@ -84,8 +88,9 @@ const Nav = styled.nav`
 `;
 
 const Logo = styled.div`
-  img {
-    width: 300px;
+  width: 180px;
+  @media screen and (max-width: 1400px) {
+    width: 120px;
   }
 `;
 
@@ -136,5 +141,7 @@ const Toggle = styled.div`
   display: none;
   @media screen and (max-width: 1400px) {
     display: block;
+    position: relative;
+    bottom: 6px;
   }
 `;
