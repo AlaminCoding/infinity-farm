@@ -37,7 +37,7 @@ const Team = () => {
     <Section>
       <Container>
         <Heading className="t-heading">Meet Our Team</Heading>
-        <Row className="px-lg-5">
+        <Row className="team-row">
           {teamList.map((element) => (
             <Col md={4} className="team" key={element.id}>
               <TeamBox>
@@ -58,20 +58,29 @@ export default Team;
 const Section = styled.section`
   overflow: hidden;
   padding: 100px 0px;
+  .team-row {
+    padding: 0px 100px;
+  }
   @media screen and (max-width: 992px) {
     padding: 50px 0px;
+    .team-row {
+      padding: 0px 0px;
+    }
   }
 `;
 const Heading = styled.h2`
   font-size: 40px;
   text-align: center;
-  color: var(--black);
-  font-weight: 700;
+  background-image: linear-gradient(to left, #d9413e, #9d17cd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 80px;
   @media screen and (max-width: 992px) {
     margin-bottom: 30px;
   }
 `;
+
 const TeamBox = styled.div`
   text-align: center;
   margin-top: 20px;
@@ -82,7 +91,6 @@ const TeamBox = styled.div`
     margin: 30px 0px 15px 0px;
     font-size: 24px;
     color: var(--black);
-    font-weight: 700;
   }
   p {
     font-size: 16px;

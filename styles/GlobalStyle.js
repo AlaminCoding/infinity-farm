@@ -10,7 +10,6 @@ export const GlobalStyle = createGlobalStyle`
     }
     body{
         margin: 0;
-        font-family: 'Open Sans', sans-serif;
         overflow-x: hidden;
     }
     h2,
@@ -30,12 +29,17 @@ export const GlobalStyle = createGlobalStyle`
     .grad-btn{
         color: white;
         background-image: linear-gradient(to left, #D9413E, #9C17CF);
-        padding: 10px 25px;
+        padding: 8px 25px;
         border-radius: 10px;
         font-weight: 500;
         display: inline-block;
+        border: 1px solid transparent;
+        transition: 0.2s;
         &:hover{
-            color: white;
+            border: 1px solid #D53E47;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     }
     .outline-btn{
@@ -44,8 +48,10 @@ export const GlobalStyle = createGlobalStyle`
         padding: 8px 25px;
         border-radius: 10px;
         display: inline-block;
+        transition: 0.2s;
         &:hover{
-            color: var(--black);
+            color: white;
+            background-image: linear-gradient(to left, #D9413E, #9C17CF);
         }
     }
     .blue-btn{
@@ -53,7 +59,6 @@ export const GlobalStyle = createGlobalStyle`
         background-image: linear-gradient(to left, #556DEE, #5DD6E9);
         padding: 10px 25px;
         border-radius: 10px;
-        font-weight: 500;
         display: inline-block;
         &:hover{
             color: white;

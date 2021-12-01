@@ -64,8 +64,10 @@ const Section = styled.section`
 const Heading = styled.h2`
   font-size: 40px;
   text-align: center;
-  color: var(--black);
-  font-weight: 700;
+  background-image: linear-gradient(to left, #d9413e, #9d17cd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `;
 const Icons = styled.div`
   display: flex;

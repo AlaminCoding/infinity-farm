@@ -123,8 +123,10 @@ const Section = styled.section`
 const Heading = styled.h2`
   font-size: 40px;
   text-align: center;
-  color: var(--black);
-  font-weight: 700;
+  background-image: linear-gradient(to left, #d9413e, #9d17cd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `;
 const TabWrapper = styled.div`
   @media screen and (max-width: 992px) {
@@ -148,7 +150,6 @@ const Tab = styled.div`
   h2 {
     color: ${(props) => (props.active ? "white" : "var(--black)")};
     font-size: calc(16px + (35 - 16) * ((100vw - 360px) / (1920 - 360)));
-    font-weight: 700;
     display: flex;
     align-items: center;
     svg {

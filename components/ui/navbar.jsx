@@ -11,15 +11,17 @@ const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
   useEffect(() => {
     openNav
-      ? (document.body.style.overflowY = "hidden")
-      : (document.body.style.overflowY = "visible");
+      ? ((document.body.style.overflow = "hidden"),
+        (document.body.style.position = "fixed"))
+      : ((document.body.style.overflow = "visible"),
+        (document.body.style.position = "static"));
   });
   return (
     <Header className="header">
       <Container>
         <Nav>
           <Logo>
-            <Image src={logo} alt="site logo" />
+            <Image src={logo} alt="site logo" quality={100} />
           </Logo>
           <Menu openNav={openNav}>
             <List>

@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import styled from "styled-components";
-import layer from "public/img/layer.png";
+import layer from "public/img/layer.gif";
 import layer1 from "public/img/layer1.png";
 import layer2 from "public/img/layer2.png";
 import OutlineButton from "components/ui/outlineButton";
@@ -66,11 +66,11 @@ const Layer = () => {
             <LayerText className="level">
               <h2 className="level-heading">Level 1</h2>
               <p className="level-content">
-                The very first farming Level will ensure the takeoff of a
-                Launchpad, InfiniteLaunch, the starting point of each IDO’s on
-                the Infinite Ecosystem. It will last 3 months and will launch
-                $INFINITY, the ecosystem main token which has a max supply of
-                only 15 000 tokens.
+                The very first Level will last 3 months and will launch
+                $INFINITY, the ecosystem’s main token which has a max supply of
+                only 15 000 tokens. It will ensure the takeoff of a Launchpad,
+                InfiniteLaunch, the starting point of each IDO’s on the Infinite
+                Ecosystem.
               </p>
               <div className="layer-btn">
                 <OutlineButton />
@@ -192,6 +192,7 @@ const LayerBox = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 310px;
   margin-top: ${(props) => (props.index % 2 === 0 ? "100px" : 0)};
   .ltext {
     flex-basis: 72%;
@@ -224,6 +225,7 @@ const LayerBox = styled.div`
   @media screen and (max-width: 992px) {
     margin-top: 30px;
     padding: 15px;
+    height: auto;
     .ltext {
       flex-basis: 100%;
       padding: 0;

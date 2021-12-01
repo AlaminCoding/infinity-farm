@@ -21,7 +21,7 @@ const tokenList = [
     image: token3,
     title: "Marketing",
     content:
-      "Our marketing will emphasize on two main aspects, the social media part and the Comunautarian Marketing., which places value on growing a community, and making it the focal point of interaction (Whitelists instructions, Airdrops, and Referring programs).",
+      "Our marketing will emphasize on two main aspects, the social media part and the Comunautarian Marketing part, which places value on growing a community, and making it the focal point of interaction (Whitelists instructions, Airdrops, and Referring programs).",
   },
 ];
 
