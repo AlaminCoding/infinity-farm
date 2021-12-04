@@ -2,6 +2,8 @@ import styled from "styled-components";
 import Link from "next/link";
 import gsap from "gsap/dist/gsap";
 import { useEffect } from "react";
+import Layer from "public/img/banner-layer.png";
+import Image from "next/image";
 const ComingSoon = () => {
   useEffect(() => {
     gsap.from(".coming-text", {
@@ -21,6 +23,9 @@ const ComingSoon = () => {
           </Link>
         </div>
       </Heading>
+      <ImgLayer>
+        <Image src={Layer} alt="Layer Banner" />
+      </ImgLayer>
     </Section>
   );
 };
@@ -32,6 +37,7 @@ const Section = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   @media screen and (max-width: 1400px) {
     height: 47.2vh;
   }
@@ -51,4 +57,14 @@ const Heading = styled.div`
     }
   }
   text-align: center;
+`;
+const ImgLayer = styled.div`
+  width: 1000px;
+  position: absolute;
+  top: -140px;
+  left: -300px;
+  z-index: -1;
+  img {
+    width: 100%;
+  }
 `;
