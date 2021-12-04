@@ -59,7 +59,7 @@ const Section = styled.section`
   overflow: hidden;
   padding: 100px 0px;
   .team-row {
-    padding: 0px 100px;
+    padding: 0px 150px;
   }
   @media screen and (max-width: 992px) {
     padding: 50px 0px;

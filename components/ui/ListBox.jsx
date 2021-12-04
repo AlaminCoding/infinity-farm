@@ -20,11 +20,11 @@ const Box = styled.div`
   padding: ${(props) => {
     switch (props.index) {
       case 0:
-        return "0px 30px 0px 0px";
+        return "0px 40px 0px 0px";
       case 1:
-        return "0px 15px 0px 15px";
+        return "0px 25px 0px 25px";
       case 2:
-        return "0px 0px 0px 30px";
+        return "0px 0px 0px 40px";
     }
   }};
   @media screen and (max-width: 1350px) {

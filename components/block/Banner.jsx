@@ -5,7 +5,7 @@ import Layer from "public/img/banner-layer.png";
 import Rugdog from "public/img/rugdog.png";
 import BannerImg from "public/img/banner.png";
 import GradButton from "components/ui/gradButton";
-import OutlineButton from "components/ui/outlineButton";
+import PresaleButton from "components/ui/PresaleButton";
 
 import gsap from "gsap/dist/gsap";
 import { useEffect } from "react";
@@ -13,13 +13,13 @@ import { useEffect } from "react";
 const Banner = () => {
   useEffect(() => {
     let tl = gsap.timeline().from(".banner-animate", {
-      duration: 1,
+      duration: 0.5,
       opacity: 0,
       y: 80,
       stagger: 0.5,
     });
     gsap.from(".banner-img", {
-      duration: 1,
+      duration: 0.5,
       opacity: 0,
       y: 50,
       ease: "ease-in",
@@ -41,14 +41,14 @@ const Banner = () => {
                 Infinite<span>Ecosystem</span>
               </h2>
               <p className="banner-animate">
-                Revolutionising DeFi by introducing the concept of Perpetual
-                Leveled Farming enabling us to initiate innovations covering
-                each aspects of DeFi through different Levels that will
-                constitute the Infinite Ecosystem. All of this powered by
-                $INFINITY.
+                Revolutionizing DeFi by introducing the concept of Perpetual
+                Leveled Farming enables us to initiate innovations covering each
+                aspect of DeFi through different levels that will constitute the
+                Infinite Ecosystem. All of this is powered by the $INFINITY
+                token.
               </p>
               <div className="banner-btn banner-animate">
-                <OutlineButton />
+                <PresaleButton />
                 <GradButton />
               </div>
               <div className="sponsor-img banner-animate">

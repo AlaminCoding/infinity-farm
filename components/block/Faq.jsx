@@ -1,4 +1,4 @@
-import OutlineButton from "components/ui/outlineButton";
+import PresaleButton from "components/ui/PresaleButton";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 import faq from "public/img/faq.png";
@@ -60,12 +60,12 @@ const Faq = () => {
               <p className="faq-content">
                 To participate in our presale starting the third week of
                 December 2021, you need to have BNB ready in your Web-3 wallet
-                and follow our telegram and Twitter channels to get further
-                instructions. Our presale will be held on a First Come First
-                Serve Format.
+                (Metamask) and follow our Telegram and Twitter channels to get
+                further information. Our presale will be held on a First Come
+                First Serve basis.
               </p>
               <div className="faq-btn">
-                <OutlineButton />
+                <PresaleButton />
               </div>
             </FaqText>
           </Col>

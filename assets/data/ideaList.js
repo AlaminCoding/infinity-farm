@@ -7,7 +7,7 @@ const IdeaList = [
     image: idea1,
     title: "Perpetual Leveled Farming",
     content:
-      "A new DeFi innovation is introduced at each level, complete with its own token that has a finite supply. The tokens earned at a previous Farm Level can still be used in the next level with a higher Yield.",
+      "A new DeFi innovation is introduced at each level, complete with its own token that has a finite supply. The tokens earned at a previous Farm Level can still be used in the next level with a higher yield.",
   },
   {
     id: 1,

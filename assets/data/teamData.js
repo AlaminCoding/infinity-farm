@@ -5,8 +5,8 @@ const teamList = [
   {
     id: 0,
     image: team1,
-    name: "Crypto King",
-    desg: "Founder and CEO",
+    name: "Crypto Kong",
+    desg: "Founder and Lead Dev",
   },
   {
     id: 1,

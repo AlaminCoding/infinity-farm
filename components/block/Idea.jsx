@@ -45,10 +45,10 @@ const Idea = () => {
               <h2>Our idea of DeFi</h2>
               <p>
                 With Perpetual Farming, we are geared to perpetually provide
-                value to grow the ecosystem, each farm level will focus on a new
-                aspect of DeFi within the Infinite ecosystem. Unlike the
-                prevalence of tokens with no real use case and apparently headed
-                to fail in many DeFi projects, ours will be anchored on everyday
+                value to grow the ecosystem, with each farm level focusing on a
+                new aspect of DeFi within the Infinite ecosystem. Unlike the
+                prevalence of tokens with no real use case and utility in many
+                DeFi protocols, $INFINITY will be anchored on everyday
                 application and real-life use, giving it a real value.
               </p>
               <a href="#" className="blue-btn">

@@ -4,7 +4,7 @@ import styled from "styled-components";
 import layer from "public/img/layer.gif";
 import layer1 from "public/img/layer1.png";
 import layer2 from "public/img/layer2.png";
-import OutlineButton from "components/ui/outlineButton";
+import PresaleButton from "components/ui/PresaleButton";
 import GradButton from "components/ui/gradButton";
 import { gsap } from "gsap/dist/gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
@@ -67,13 +67,13 @@ const Layer = () => {
               <h2 className="level-heading">Level 1</h2>
               <p className="level-content">
                 The very first Level will last 3 months and will launch
-                $INFINITY, the ecosystem’s main token which has a max supply of
-                only 15 000 tokens. It will ensure the takeoff of a Launchpad,
-                InfiniteLaunch, the starting point of each IDO’s on the Infinite
-                Ecosystem.
+                $INFINITY, the ecosystem’s core token with a maximum supply of
+                15 000 tokens only, forever. It will ensure the takeoff of a
+                Launchpad, InfiniteLaunch, the starting point of each IDO’s on
+                the Infinite Ecosystem.
               </p>
               <div className="layer-btn">
-                <OutlineButton />
+                <PresaleButton />
                 <GradButton />
               </div>
             </LayerText>
@@ -90,10 +90,10 @@ const Layer = () => {
                   </div>
                 </div>
                 <p>
-                  Stake your favourite coins, or liquidity pairs and get
+                  Stake your favorite crypto or liquidity pairs and get
                   $INFINITY rewards. What we envisage goes beyond depositing
-                  tokens and earning, we are implementing multiple actions that
-                  will give the utmost value to the community.
+                  tokens and earning, by implementing multiple actions that will
+                  give the utmost value to the community.
                 </p>
               </div>
               <div className="limg">
@@ -111,10 +111,10 @@ const Layer = () => {
                   </div>
                 </div>
                 <p>
-                  We will use our launchpad to introduce new projects for
-                  take-off. It will give the opportunity for the $INFINITY token
-                  holders to have a guaranteed allocation in exclusive pre-sales
-                  and be early stage investors of upcoming mainstream projects.
+                  We will use our Launchpad to introduce new projects ready for
+                  take-off. It will allow the $INFINITY token holders to have a
+                  guaranteed allocation in exclusive pre-sales and be
+                  early-stage investors of upcoming mainstream projects.
                 </p>
               </div>
               <div className="limg">

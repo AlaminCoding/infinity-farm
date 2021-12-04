@@ -4,6 +4,7 @@ import logo from "public/img/logo.png";
 import twitter from "public/img/twitter.png";
 import paper from "public/img/paper.png";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
@@ -25,7 +26,11 @@ const Navbar = () => {
       <Container>
         <Nav>
           <Logo>
-            <Image src={logo} alt="site logo" quality={100} />
+            <Link href="/">
+              <a>
+                <Image src={logo} alt="site logo" quality={100} />
+              </a>
+            </Link>
           </Logo>
           <Menu openNav={openNav}>
             <List>
