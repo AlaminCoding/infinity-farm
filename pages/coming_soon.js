@@ -38,6 +38,7 @@ const Section = styled.section`
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
   @media screen and (max-width: 1400px) {
     height: 47.2vh;
   }
@@ -66,5 +67,10 @@ const ImgLayer = styled.div`
   z-index: -1;
   img {
     width: 100%;
+  }
+  @media screen and (max-width: 1000px) {
+    width: 130%;
+    left: -115px;
+    top: 0;
   }
 `;
