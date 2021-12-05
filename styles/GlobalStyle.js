@@ -34,6 +34,7 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 500;
         display: inline-block;
         border: 1px solid transparent;
+        overflow: hidden;
         transition: 0.2s;
         &:hover{
             border: 1px solid #D53E47;
@@ -48,6 +49,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 8px 25px;
         border-radius: 10px;
         display: inline-block;
+        overflow: hidden;
         transition: 0.2s;
         &:hover{
             color: white;
@@ -60,6 +62,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 10px 25px;
         border-radius: 10px;
         display: inline-block;
+        overflow: hidden;
         &:hover{
             color: white;
         }
