@@ -202,6 +202,7 @@ const AnsList = styled.ul`
   margin-bottom: 30px;
   position: absolute;
   width: 90%;
+  height: 100%;
   top: 0;
   right: 0;
   visibility: ${(props) => (props.active ? "visible" : "hidden")};
