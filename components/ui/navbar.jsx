@@ -3,11 +3,11 @@ import styled from "styled-components";
 import logo from "public/img/logo.png";
 import twitter from "public/img/twitter.png";
 import paper from "public/img/paper.png";
+import youtube from "public/img/yt.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
   useEffect(() => {
@@ -49,7 +49,13 @@ const Navbar = () => {
               <a href="#">Whitepaper</a>
             </List>
             <List type={"social"}>
-              <a href="#">
+              <a
+                href="https://www.youtube.com/channel/UCOCFFrKsRMtbnnQtnQLsSyw"
+                target="_blank"
+              >
+                <Image src={youtube} alt="youtube" />
+              </a>
+              <a href="#" className="ms-3">
                 <Image src={twitter} alt="twitter" />
               </a>
               <a href="#" className="ms-3">

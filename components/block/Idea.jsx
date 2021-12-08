@@ -51,9 +51,14 @@ const Idea = () => {
                 DeFi protocols, $INFINITY will be anchored on everyday
                 application and real-life use, giving it a real value.
               </p>
-              <a href="#" className="blue-btn">
-                Read Whitepaper
-              </a>
+              <div className="social-btn">
+                <a href="#" className="outline-btn">
+                  Whitepaper (EN)
+                </a>
+                <a href="#" className="grad-btn">
+                  Whitepaper (JN)
+                </a>
+              </div>
             </VideoText>
           </Col>
         </Row>
@@ -103,6 +108,22 @@ const VideoText = styled.div`
     color: white;
     margin: 30px 0px;
   }
+  .social-btn {
+    display: flex;
+    width: 100%;
+  }
+  .outline-btn {
+    background-color: white;
+    margin-right: 10px;
+  }
+  .grad-btn {
+    &:hover {
+      background-image: none;
+      background-color: white;
+      background-clip: border-box;
+      -webkit-text-fill-color: black;
+    }
+  }
   @media screen and (max-width: 992px) {
     margin-top: 20px;
     padding-left: 0;
@@ -114,8 +135,8 @@ const VideoText = styled.div`
       text-align: center;
       margin: 20px 0px;
     }
-    a {
-      margin: 0 auto;
+    .social-btn {
+      justify-content: center;
     }
   }
 `;
