@@ -52,6 +52,7 @@ const Navbar = () => {
               <a
                 href="https://www.youtube.com/channel/UCOCFFrKsRMtbnnQtnQLsSyw"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image src={youtube} alt="youtube" />
               </a>
