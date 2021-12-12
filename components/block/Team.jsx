@@ -58,6 +58,7 @@ export default Team;
 const Section = styled.section`
   overflow: hidden;
   padding: 100px 0px;
+  background-color: #2a1539;
   .team-row {
     padding: 0px 150px;
   }
@@ -71,11 +72,8 @@ const Section = styled.section`
 const Heading = styled.h2`
   font-size: 40px;
   text-align: center;
-  background-image: linear-gradient(to left, #d9413e, #9d17cd);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin-bottom: 80px;
+  color: white;
   @media screen and (max-width: 992px) {
     margin-bottom: 30px;
   }
@@ -91,9 +89,11 @@ const TeamBox = styled.div`
     margin: 30px 0px 15px 0px;
     font-size: 24px;
     color: var(--black);
+    color: white;
   }
   p {
     font-size: 16px;
     color: var(--gray);
+    color: white;
   }
 `;
