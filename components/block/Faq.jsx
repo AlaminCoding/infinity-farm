@@ -58,11 +58,10 @@ const Faq = () => {
                 How to participate in the Presale ?
               </h2>
               <p className="faq-content">
-                To participate in our presale starting in December 2021, you
-                need to have BNB ready in your Web-3 wallet (Metamask) and
+                To participate in our presale starting the 5th of January 2021,
+                you need to have BNB ready in your Web-3 wallet (Metamask) and
                 follow our Telegram and Twitter channels to get further
-                information and instructions. Our presale will be held on a
-                First Come First Serve basis.
+                information and instructions.
               </p>
               <div className="faq-btn">
                 <PresaleButton />

@@ -48,7 +48,7 @@ const Token = () => {
                 It will be powering all the Subunits of the ecosystem, which
                 will introduce several mechanisms to increase the buying
                 pressure of $INFINITY. By bringing a use case to the $INFINITY
-                token in every Levels of our ecosystem, we perpetually create
+                token in every level of our ecosystem, we perpetually create
                 natural value for the holders.
               </p>
             </TokenText>

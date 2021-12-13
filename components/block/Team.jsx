@@ -96,4 +96,7 @@ const TeamBox = styled.div`
     color: var(--gray);
     color: white;
   }
+  @media screen and (max-width: 776px) {
+    padding: 0px 20%;
+  }
 `;

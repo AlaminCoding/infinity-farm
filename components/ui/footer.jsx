@@ -2,6 +2,7 @@ import styled from "styled-components";
 import footerImg from "public/img/logo-white.png";
 import paper from "public/img/paper-white.png";
 import twitter from "public/img/twitter-white.png";
+import instagram from "public/img/instagram-white.png";
 import Image from "next/image";
 import { Row, Col, Container } from "react-bootstrap";
 import layer from "public/img/footer-layer.png";
@@ -44,7 +45,7 @@ const Footer = () => {
                       <h2>Contact Info</h2>
                       <p>
                         Email: <br />
-                        InfiniteFarm@Protonmail.com
+                        infiniteecosystem@protonmail.com
                       </p>
                     </MenuBox>
                   </Col>
@@ -52,12 +53,19 @@ const Footer = () => {
                     <MenuBox>
                       <h2>Follow Us</h2>
                       <FooterIcon>
-                        <a href="#">
+                        <a href="https://t.me/InfiniteTG">
                           <Image src={paper} alt="paper img" />
                         </a>
-                        <a href="#">
-                          {" "}
+                        <a href="https://twitter.com/infinite_eco">
                           <Image src={twitter} alt="twitter img" />
+                        </a>
+                        <a href="https://www.instagram.com/ecosysteminfinite/">
+                          <Image
+                            src={instagram}
+                            alt="insta img"
+                            height={23}
+                            width={23}
+                          />
                         </a>
                       </FooterIcon>
                     </MenuBox>
@@ -87,6 +95,7 @@ const FooterDiv = styled.footer`
     position: absolute;
     bottom: -10px;
     right: 0;
+    z-index: 0;
     @media screen and (max-width: 600px) {
       right: -50%;
     }
@@ -102,19 +111,21 @@ const MainFooter = styled.div`
 `;
 
 const FooterLogo = styled.div`
+  width: 256px;
   @media screen and (max-width: 1000px) {
-    text-align: center;
+    margin: 0 auto;
   }
 `;
 
 const FooterIcon = styled.div`
-  width: 80px;
+  width: 120px;
   display: flex;
   justify-content: space-between;
 `;
 
 const FooterMenu = styled.div`
   flex-basis: 50%;
+  z-index: 1;
   @media screen and (max-width: 1400px) {
     flex-basis: 65%;
   }

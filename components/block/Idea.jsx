@@ -35,7 +35,7 @@ const Idea = () => {
           <Col lg={6}>
             <Video id="video">
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=bTqVqk7FSmY"
+                url="https://www.youtube.com/watch?v=nGWnU078zmg"
                 width="100%"
               />
             </Video>
@@ -49,13 +49,21 @@ const Idea = () => {
                 new aspect of DeFi within the Infinite ecosystem. Unlike the
                 prevalence of tokens with no real use case and utility in many
                 DeFi protocols, $INFINITY will be anchored on everyday
-                application and real-life use, giving it a real value.
+                application and real-life use, giving it intrinsic value.
               </p>
               <div className="social-btn">
-                <a href="#" className="outline-btn">
+                <a
+                  href="https://drive.google.com/file/d/1DmS4FWD3imnsC1nWS7J3JEYbzyRnamjU/view?usp=sharing"
+                  className="outline-btn"
+                  target="_blank"
+                >
                   Whitepaper (EN)
                 </a>
-                <a href="#" className="grad-btn">
+                <a
+                  href="https://drive.google.com/file/d/1qhpnhNDQOzjL_mKzekHAc7yY9M23LODV/view?usp=sharing"
+                  className="grad-btn"
+                  target="_blank"
+                >
                   Whitepaper (JN)
                 </a>
               </div>
