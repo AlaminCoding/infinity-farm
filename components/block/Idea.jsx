@@ -56,6 +56,7 @@ const Idea = () => {
                   href="https://drive.google.com/file/d/1DmS4FWD3imnsC1nWS7J3JEYbzyRnamjU/view?usp=sharing"
                   className="outline-btn"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Whitepaper (EN)
                 </a>
@@ -63,6 +64,7 @@ const Idea = () => {
                   href="https://drive.google.com/file/d/1qhpnhNDQOzjL_mKzekHAc7yY9M23LODV/view?usp=sharing"
                   className="grad-btn"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Whitepaper (JN)
                 </a>
