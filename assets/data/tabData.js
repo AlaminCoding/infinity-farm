@@ -18,7 +18,7 @@ const tabData = [
   },
   {
     id: 1,
-    quesNo: "Q1",
+    quesNo: "Q2",
     quesYear: "2022",
     ans: [
       "Several TOP 10 CEX Listing",
@@ -32,7 +32,7 @@ const tabData = [
   },
   {
     id: 2,
-    quesNo: "Q2",
+    quesNo: "Q3",
     quesYear: "2022",
     ans: [
       "$INFINITY Max Supply Reached",
