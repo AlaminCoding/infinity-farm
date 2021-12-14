@@ -1,6 +1,11 @@
 const GradButton = () => {
   return (
-    <a href="#" className="grad-btn">
+    <a
+      href="https://Bsc.infinitefarm.tech"
+      className="grad-btn"
+      target="_blank"
+      rel="noreferrer"
+    >
       Launch Beta App
     </a>
   );

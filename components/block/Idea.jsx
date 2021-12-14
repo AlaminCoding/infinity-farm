@@ -53,7 +53,7 @@ const Idea = () => {
               </p>
               <div className="social-btn">
                 <a
-                  href="https://drive.google.com/file/d/1DmS4FWD3imnsC1nWS7J3JEYbzyRnamjU/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1J5dDsadAeVMzYmU9bVgS8argBHndkCIM/view?usp=sharing"
                   className="outline-btn"
                   target="_blank"
                   rel="noreferrer"
@@ -61,7 +61,7 @@ const Idea = () => {
                   Whitepaper (EN)
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1qhpnhNDQOzjL_mKzekHAc7yY9M23LODV/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Ws2QIA-MbQMGsa74rCfk9P9s20pAEBWk/view?usp=sharing"
                   className="grad-btn"
                   target="_blank"
                   rel="noreferrer"

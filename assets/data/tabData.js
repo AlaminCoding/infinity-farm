@@ -1,8 +1,8 @@
 const tabData = [
   {
     id: 0,
-    quesNo: "Q4",
-    quesYear: "2021",
+    quesNo: "Q1",
+    quesYear: "2022",
     ans: [
       "Website Launch 1",
       "Initial DEX offering ",

@@ -5,6 +5,7 @@ import twitter from "public/img/twitter.png";
 import paper from "public/img/paper.png";
 import youtube from "public/img/yt.png";
 import instagram from "public/img/instagram.png";
+import discord from "public/img/discord.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -69,11 +70,39 @@ const Navbar = () => {
               <a href="https://t.me/InfiniteTG" className="ms-3">
                 <Image src={paper} alt="Paper" />
               </a>
+              <a href="https://t.me/InfiniteTG" className="ms-3">
+                <Image src={discord} alt="Discord" width={19} height={19} />
+              </a>
             </List>
             <List type="btn">
-              <a href="#" className="grad-btn">
+              <a
+                href="https://Bsc.infinitefarm.tech"
+                className="grad-btn"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Launch Beta App
               </a>
+            </List>
+            <List>
+              <div className="social-btn">
+                <a
+                  href="https://drive.google.com/file/d/1J5dDsadAeVMzYmU9bVgS8argBHndkCIM/view?usp=sharing"
+                  className="outline-btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Whitepaper (EN)
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1Ws2QIA-MbQMGsa74rCfk9P9s20pAEBWk/view?usp=sharing"
+                  className="grad-btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Whitepaper (JN)
+                </a>
+              </div>
             </List>
           </Menu>
           <Toggle>
@@ -150,8 +179,28 @@ const List = styled.li`
   .grad-btn {
     color: white;
   }
+  .social-btn {
+    display: flex;
+    width: 100%;
+    display: none;
+    .outline-btn {
+      background-color: white;
+      margin-right: 10px;
+    }
+    .grad-btn {
+      &:hover {
+        background-image: none;
+        background-color: white;
+        background-clip: border-box;
+        -webkit-text-fill-color: black;
+      }
+    }
+  }
   @media screen and (max-width: 1400px) {
-    margin: 20px 0px;
+    margin: 15px 0px;
+    .social-btn {
+      display: block;
+    }
   }
 `;
 

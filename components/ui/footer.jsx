@@ -3,6 +3,7 @@ import footerImg from "public/img/logo-white.png";
 import paper from "public/img/paper-white.png";
 import twitter from "public/img/twitter-white.png";
 import instagram from "public/img/instagram-white.png";
+import discord from "public/img/discord-white.png";
 import Image from "next/image";
 import { Row, Col, Container } from "react-bootstrap";
 import layer from "public/img/footer-layer.png";
@@ -67,6 +68,14 @@ const Footer = () => {
                             width={23}
                           />
                         </a>
+                        <a href="https://www.instagram.com/ecosysteminfinite/">
+                          <Image
+                            src={discord}
+                            alt="discord img"
+                            height={23}
+                            width={23}
+                          />
+                        </a>
                       </FooterIcon>
                     </MenuBox>
                   </Col>
@@ -118,7 +127,7 @@ const FooterLogo = styled.div`
 `;
 
 const FooterIcon = styled.div`
-  width: 120px;
+  width: 155px;
   display: flex;
   justify-content: space-between;
 `;
