@@ -70,7 +70,7 @@ const Navbar = () => {
               <a href="https://t.me/InfiniteTG" className="ms-3">
                 <Image src={paper} alt="Paper" />
               </a>
-              <a href="https://t.me/InfiniteTG" className="ms-3">
+              <a href="https://discord.gg/y7uvFsGY" className="ms-3">
                 <Image src={discord} alt="Discord" width={19} height={19} />
               </a>
             </List>
