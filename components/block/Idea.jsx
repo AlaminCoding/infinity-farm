@@ -35,7 +35,7 @@ const Idea = () => {
           <Col lg={6}>
             <Video id="video">
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=nGWnU078zmg"
+                url="https://www.youtube.com/watch?v=BIdNEmYvlDI"
                 width="100%"
               />
             </Video>
