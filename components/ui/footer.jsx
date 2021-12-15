@@ -68,7 +68,7 @@ const Footer = () => {
                             width={23}
                           />
                         </a>
-                        <a href="https://www.instagram.com/ecosysteminfinite/">
+                        <a href="https://discord.gg/y7uvFsGY">
                           <Image
                             src={discord}
                             alt="discord img"
