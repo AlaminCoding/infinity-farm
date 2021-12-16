@@ -90,7 +90,10 @@ const Roadmap = () => {
                   {element.ans.map((element, index) => (
                     <li key={index}>
                       <FiTarget />
-                      {element}
+                      <div
+                        className="ans-line"
+                        dangerouslySetInnerHTML={{ __html: element }}
+                      />
                     </li>
                   ))}
                 </AnsList>
@@ -222,6 +225,9 @@ const AnsList = styled.ul`
     svg {
       color: #354bc1;
       margin-right: 10px;
+    }
+    a {
+      font-weight: bold;
     }
   }
   @media screen and (max-width: 992px) {

@@ -6,7 +6,7 @@ const tabData = [
     ans: [
       "Website Launch 1",
       "Initial DEX offering ",
-      "Security Audits ",
+      "Security <a href='https://drive.google.com/file/d/1F1uuxdgmtBi0t-37daVqkgcdiVMJz5cx/view?usp=sharing' target='_blank' rel='noreferrer'>Audits</a>",
       "Pancake Swap Listing ",
       "Launch on BSC ",
       "Launch on Polygon ",
